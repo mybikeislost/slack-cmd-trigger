@@ -1,6 +1,6 @@
 # Slack Command Trigger (Evernote)
 
-Automatically clip multiple channels over a range of days and from Slack into Evernote using the Web API. Options to clip yesterday, the last week, or the last month. Requires a legacy API token.
+Automatically clip multiple channels over a range of days from Slack into Evernote using the Web API. Options to clip yesterday, the last week, or the last month. Requires a legacy API token.
 
 ## install
 	
