@@ -12,7 +12,7 @@ install npm (osx example): `brew install npm`
 
 1. Generate a legacy token at: https://api.slack.com/custom-integrations/legacy-tokens
 2. edit `index.py` and insert the token for `apiKey` at the top of the file.
-3. Also in `index.py` edit the list of channels you want to archive to Evernote.
+3. Also in `index.py` edit the list of `channels` you want to archive to Evernote.
 
 
 ## running
