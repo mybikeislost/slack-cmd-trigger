@@ -4,18 +4,16 @@ Automatically clip multiple channels over a range of days and from Slack into Ev
 
 ## install
 	
-install slacker
-`pip install slacker`
+install slacker: `pip install slacker`
 
-install npm
+install npm - osx example: `brew install npm`
 
-## request a legacy API token
+## config token and channels
+
 1. Generate a legacy token at: https://api.slack.com/custom-integrations/legacy-tokens
 2. edit `index.py` and insert the token for `apiKey` at the top of the file.
+3. Also in `index.py` edit the list of channels you want to archive to Evernote.
 
-    npm install
-    <or>
-    npm i
 
 ## running
 with no arguments, it will clip yesterday's messages.
