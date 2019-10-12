@@ -6,7 +6,7 @@ Automatically clip multiple channels over a range of days and from Slack into Ev
 	
 install slacker: `pip install slacker`
 
-install npm - osx example: `brew install npm`
+install npm (osx example): `brew install npm`
 
 ## config token and channels
 
