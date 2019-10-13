@@ -19,8 +19,6 @@ days = 2 #default number of days to clip. 2 sets it to yesterday
 
 def init_settings():
 	global days
-	#days = 2 # default to only clipping yesterday.
-
 	parser = argparse.ArgumentParser()
 	parser.add_argument('-w','--week', help='clip the previous 7 days.', nargs='?', const=1, default=False)
 	parser.add_argument('-m','--month', help='clip the prior 31 days', nargs='?', const=1, default=False)
